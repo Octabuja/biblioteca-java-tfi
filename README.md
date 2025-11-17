@@ -45,12 +45,19 @@ Eliminar (baja lógica)
 
 ## Estructura del proyecto
 src/
+
  ├─ config/                → Conexión JDBC (DatabaseConnection)
+
  ├─ dao/                   → Interfaces y clases DAO (acceso a BD)
+ 
  ├─ entities/              → Libro, FichaBibliografica, Base
+ 
  ├─ service/               → Reglas de negocio y validaciones
+
  └─ main/                  → AppMenu (interfaz de consola)
+
 database/
+ 
  └─ database.sql           → Script único con creación de tablas + inserts
 
 ### Base de datos
