@@ -120,7 +120,10 @@ main/AppMenu.java
 
 👤 Autores
 
-Nombre: [Bujaldon Octavio , Briñoccoli Adrian
+Nombres: [Bujaldon Octavio , Briñoccoli Adrian]
+
 Carrera / Curso: Tecnicatura en Programación - Progamacion 2
+
 Institución: [UTN]
+
 Año: 2025
