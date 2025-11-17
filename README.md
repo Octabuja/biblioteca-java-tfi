@@ -45,12 +45,19 @@ Eliminar (baja lógica)
 
 ## Estructura del proyecto
 src/
+
  ├─ config/                → Conexión JDBC (DatabaseConnection)
+
  ├─ dao/                   → Interfaces y clases DAO (acceso a BD)
+ 
  ├─ entities/              → Libro, FichaBibliografica, Base
+ 
  ├─ service/               → Reglas de negocio y validaciones
+
  └─ main/                  → AppMenu (interfaz de consola)
+
 database/
+ 
  └─ database.sql           → Script único con creación de tablas + inserts
 
 ### Base de datos
@@ -78,7 +85,9 @@ Verificar que exista la base biblioteca_db
 En el archivo DatabaseConnection.java deben configurarse los datos de la conexión:
 
 private static final String URL = "jdbc:mysql://localhost:3306/biblioteca_db";
+
 private static final String USER = "root";
+
 private static final String PASSWORD = "";
 
 ### Cómo ejecutar el proyecto
@@ -111,7 +120,10 @@ main/AppMenu.java
 
 👤 Autores
 
-Nombre: [Bujaldon Octavio , Briñoccoli Adrian
+Nombres: [Bujaldon Octavio , Briñoccoli Adrian]
+
 Carrera / Curso: Tecnicatura en Programación - Progamacion 2
+
 Institución: [UTN]
+
 Año: 2025
