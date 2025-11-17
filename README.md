@@ -85,7 +85,9 @@ Verificar que exista la base biblioteca_db
 En el archivo DatabaseConnection.java deben configurarse los datos de la conexión:
 
 private static final String URL = "jdbc:mysql://localhost:3306/biblioteca_db";
+
 private static final String USER = "root";
+
 private static final String PASSWORD = "";
 
 ### Cómo ejecutar el proyecto
